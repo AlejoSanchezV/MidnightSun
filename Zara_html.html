@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zara Larsson — Midnight Sun</title>
+  <meta name="description" content="Landing fan-made inspirada en 'Midnight Sun' de Zara Larsson. Demostración académica de responsive design con patrón Layout Shifter." />
+
+  <!-- Tipografías (display ecléctica + texto legible) -->
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- ENLACE AL CSS EXTERNO -->
+  <link rel="stylesheet" href="./Zara_css.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <!-- HEADER STICKY + NAV CON ANCLAS -->
+  <header class="site-header" role="banner">
+    <div class="wrap header-inner">
+      <a class="brand" href="#inicio" aria-label="Zara Larsson — Midnight Sun">MIDNIGHT SUN</a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#album">Álbum</a>
+        <a href="#tracks">Tracks</a>
+        <a href="#visuales">Visuales</a>
+        <a href="#tour">Tour</a>
+        <a href="#prensa">Prensa</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#faq">FAQ</a>
+        <a class="cta-mini" href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="inicio" class="section hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Zara Larsson</p>
+          <h1>MIDNIGHT SUN</h1>
+          <p class="sub">Pop radiante para noches que no se apagan. Una era luminosa con euforia electrónica y vulnerabilidad honesta.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#album">Escúchalo ahora</a>
+            <a class="btn secondary" href="#tour">Fechas del tour</a>
+          </div>
+        </div>
+          <img src="./Recursos/Portada.jpeg" alt="" />
+      </div>
+    </section>
+
+    <!-- ÁLBUM -->
+    <section id="album" class="section">
+      <div class="wrap album-grid">
+        <article class="card">
+    <figure class="album-cover" role="group" aria-label="Teaser oficial de Midnight Sun">
+        <video
+             class="album-video"
+            src="./Recursos/Zara Larsson - Midnight Sun (Live) - ZaraLarssonMusicVEVO (1080p, h264).mp4"
+            poster="./Recursos/album-cover.jpg"
+            controls
+            preload="metadata"
+            playsinline
+        ></video>
+    </figure>
+</figure>
+        </figure>
+        </article>
+        <article class="card pad">
+          <header class="section-head">
+            <h2>El álbum</h2>
+            <span class="eyebrow">Electro-pop · Eurodance · Trance · Funk brasileño</span>
+          </header>
+          <p><strong>Midnight Sun</strong> captura la sensación del verano del norte: luz dorada sobre un cielo profundo, libertad y hedonismo honesto. Producciones brillantes con texturas electrónicas, ganchos melódicos y letras directas sobre ambición, identidad y soltar la perfección.</p>
+          <p>Singles destacados: <strong>“Midnight Sun”</strong>, <strong>“Pretty Ugly”</strong> y <strong>“Crush”</strong>. La estética mezcla editorial pop con detalles kitsch (destellos y stickers irónicos) para una atmósfera radiante.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#tracks">Explorar tracks</a>
+            <a class="btn secondary" href="#visuales">Ver visuales</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- TRACKS -->
+    <section id="tracks" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <h2>Tracks destacados</h2>
+        </header>
+        <div class="tracks">
+          <div class="track">
+            <span class="badge">01</span>
+            <div class="track-body">
+              <div class="track-title">Midnight Sun</div>
+              <p class="muted">Euforia luminosa; espíritu libre y cielo rojo.</p>
+            </div>
+            <a 
+                class="cta-mini" 
+                href="https://open.spotify.com/intl-es/track/7N1GSHGlLwXY3lN5gv3QLV?si=aecfffb09a5a4845" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                ▶︎ Escuchar
+             </a>
+          </div>
+          <div class="track">
+            <span class="badge">02</span>
+            <div class="track-body">
+              <div class="track-title">Pretty Ugly</div>
+              <p class="muted">Descaro electro; coreografía bajo la lluvia.</p>
+            </div>
+            <a 
+                class="cta-mini" 
+                href="https://open.spotify.com/intl-es/track/5FYkRxeoLfVxMqyfNR6TMQ?si=ea1dba1f156c41c7"
+                target="_blank" 
+                rel="noopener noreferrer">
+                ▶︎ Escuchar
+             </a>
+          </div>
+          <div class="track">
+            <span class="badge">03</span>
+            <div class="track-body">
+              <div class="track-title">Crush</div>
+              <p class="muted">Deseo directo, tensión pop.</p>
+            </div>
+            <a 
+                class="cta-mini" 
+                href="https://open.spotify.com/intl-es/track/5qE28swK9ufll68IzqG1aY?si=cbf619d7b0104561"
+                target="_blank" 
+                rel="noopener noreferrer">
+                ▶︎ Escuchar
+             </a>
+          </div>
+          <div class="track">
+            <span class="badge">04</span>
+            <div class="track-body">
+              <div class="track-title">Hot &amp; Sexy</div>
+              <p class="muted">Bubblegum + funk brasileño + techno.</p>
+            </div>
+            <a 
+                class="cta-mini" 
+                href="https://open.spotify.com/intl-es/track/6XcyAXAYKQD7FqCG2F2xOu?si=5a22f8355c29497b"
+                target="_blank" 
+                rel="noopener noreferrer">
+                ▶︎ Escuchar
+             </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISUALES -->
+    <section id="visuales" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <h2>Visuales</h2>
+        </header>
+        <div class="mosaic" role="list">
+          <!-- Reemplaza por tus imágenes y mantén alt adecuados -->
+          <figure class="tile" role="listitem">
+            <img src="./Recursos/1.png" alt="1" loading="lazy" />
+          </figure>
+          <figure class="tile" role="listitem">
+            <img src="./Recursos/2.jpg" alt="2" loading="lazy" />
+          </figure>
+          <figure class="tile" role="listitem">
+            <img src="./Recursos/3.webp" alt="3" loading="lazy" />
+          </figure>
+          <figure class="tile" role="listitem">
+            <img src="./Recursos/4.jpg" alt="4" loading="lazy" />
+          </figure>
+          <figure class="tile" role="listitem">
+            <img src="./Recursos/5.jpg" alt="5" loading="lazy" />
+          </figure>
+          <figure class="tile" role="listitem">
+            <img src="./Recursos/6.png" alt="6" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOUR -->
+    <section id="tour" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <h2>Tour</h2>
+          <span class="eyebrow">Fechas y ciudades</span>
+        </header>
+        <div class="tour-grid">
+          <article class="tour-card">
+            <strong>Múnich</strong>
+            <span>Otoño 2025</span>
+            <a class="cta-mini" 
+                href="https://www.zaralarssonofficial.com/tour" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Ver boletos
+            </a>
+          </article>
+          <article class="tour-card">
+            <strong>Viena</strong>
+            <span>Otoño 2025</span>
+            <a class="cta-mini" 
+                href="https://www.zaralarssonofficial.com/tour" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Ver boletos
+            </a>
+          </article>
+          <article class="tour-card">
+            <strong>Berlín</strong>
+            <span>Otoño 2025</span>
+           <a class="cta-mini" 
+                href="https://www.zaralarssonofficial.com/tour" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Ver boletos
+            </a>
+          </article>
+          <article class="tour-card">
+            <strong>Manchester</strong>
+            <span>Otoño 2025</span>
+            <a class="cta-mini" 
+                href="https://www.zaralarssonofficial.com/tour" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Ver boletos
+            </a>
+          </article>
+          <article class="tour-card">
+            <strong>Düsseldorf</strong>
+            <span>Otoño 2025</span>
+            <a class="cta-mini" 
+                href="https://www.zaralarssonofficial.com/tour" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Ver boletos
+            </a>
+          </article>
+          <article class="tour-card">
+            <strong>Ámsterdam</strong>
+            <span>Otoño 2025</span>
+            <a class="cta-mini" 
+                href="https://www.zaralarssonofficial.com/tour" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Ver boletos
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRENSA -->
+    <section id="prensa" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <h2>Prensa</h2>
+          <span class="eyebrow">Notas y reseñas</span>
+        </header>
+        <div class="quotes">
+          <blockquote>
+            “Una euforia luminosa que nunca se apaga.
+            Con Midnight Sun, Zara Larsson ha logrado capturar la sensación de un verano que no termina. Rolling Stone describe el disco como “una descarga de alegría pop que se rehúsa a bajar el ritmo”, un viaje de principio a fin impulsado por beats de alta energía y una producción que brilla con confianza. Cada canción parece vivir en su propio amanecer: melodías que se expanden, sintetizadores que respiran y una voz que se mueve entre la vulnerabilidad y la celebración.
+
+            El tema que da nombre al álbum, “Midnight Sun”, es, según la revista, “delirantemente hipnótico”, una invitación a perder la noción del tiempo bajo un cielo en el que nunca cae la noche. En palabras de Larsson, es la primera vez que se siente plenamente en control: coescribió cada tema, buscó un sonido más honesto y sin miedo al exceso. “Esta vez no sentí presión”, confesó en conversación con Associated Press, dejando claro que este disco es tanto una liberación creativa como una afirmación de identidad.”
+            <footer>— Rolling Stone</footer>
+          </blockquote>
+          <blockquote>
+            “Pop nórdico en estado de trance.
+            Desde Clash Magazine, la lectura es igual de entusiasta: “Midnight Sun conjura un Scandi-pop estelar y radiante, lleno de un abandono sin restricciones.” La crítica británica celebra cómo los hooks brillantes y los ritmos de club se entrelazan para crear un estado casi febril, una pista de baile envuelta en neón. Lejos de las fórmulas previsibles, el álbum se siente como un salto de fe: una artista que se reencuentra con su propio pulso, entre el maximalismo electrónico y la calidez de lo humano.
+
+            En conjunto, ambas publicaciones coinciden en que Midnight Sun no solo marca una nueva etapa en la carrera de Zara Larsson, sino que redefine su papel dentro del pop contemporáneo: una figura que ya no busca simplemente entretener, sino iluminar.
+            Un álbum que —como el fenómeno natural que lo inspira— no tiene anochecer.”
+            <footer>— Clash Magazine</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE / BIO -->
+    <section id="sobre" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <h2>Sobre Zara</h2>
+          <span class="eyebrow">Breve biografía</span>
+        </header>
+        <div class="bio">
+          <p><strong>Zara Larsson</strong> (Estocolmo, 1997) es una cantante sueca de pop que se dio a conocer desde niña y se consolidó internacionalmente con éxitos como “Lush Life” y “Symphony”. Su propuesta combina euforia de pista, melodías memorables y letras directas.</p>
+          <p><em>Midnight Sun</em> continúa esa línea con producción electrónica luminosa y una narrativa personal sobre ambición, identidad y libertad creativa.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <h2>Preguntas frecuentes</h2>
+          <span class="eyebrow">Sobre el proyecto</span>
+        </header>
+        <div class="faq">
+          <details>
+            <summary>¿Qué significa “Midnight Sun”?</summary>
+            <p>Hace referencia al fenómeno del sol de medianoche en el norte de Europa y a una noche que parece no terminar: metáfora de libertad y claridad emocional.</p>
+          </details>
+          <details>
+            <summary>Singles de esta era</summary>
+            <p>“Midnight Sun”, “Pretty Ugly”, “Crush”.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <h2>Contacto</h2>
+          <span class="eyebrow">Prensa, bookings o colaboraciones</span>
+        </header>
+        <form class="form" action="#" method="post" aria-describedby="contacto-help" novalidate>
+          <p id="contacto-help" class="muted">Campos marcados con * son obligatorios.</p>
+          <div class="field">
+            <label for="name">Nombre *</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="field">
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="field">
+            <label for="msg">Mensaje</label>
+            <textarea id="msg" name="msg" rows="5" placeholder="Cuéntanos tu idea"></textarea>
+          </div>
+          <button type="submit" class="btn">Enviar consulta</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="wrap">
+      <small>Proyecto académico fan-made · Solo demostración de diseño responsive (Layout Shifter).</small><br />
+      <small>© 2025 · Hecho con ❤ por Alejandro Sánchez Villegas
+      </small>
+    </div>
+  </footer>
+</body>
+</html>
